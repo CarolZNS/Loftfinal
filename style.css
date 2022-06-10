@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ropa Sans', sans-serif;
+    
+}
+
+html{
+    font-size: 12px;
+}
+
+header .headerBox{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    width: 100%;
+    margin: 8px 10px 8px 20px;
+    display: flex;
+    align-items: center;
+}
+
+header .logo h1{
+    font-size: 3em;
+    font-weight: 300;
+    color: #777;
+}
+
+header .logo h2{
+    font-size: 1em;
+    font-weight: 300;
+    color: #aaa;
+    padding: 2px;
+}
+
+.menu {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+main {
+    margin: 20px;
+    height: 100%;
+    width: 608px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#carrossel {
+    height: 259px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+div .produtos {
+    margin-top: 37px;
+    margin-bottom: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.imagem {
+    width: 100%;
+    height: 140px;
+    background-repeat: no-repeat;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(238, 238, 238, 1);
+    color: #888;
+    padding: 10px;
+}
+.preco {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    font-weight: 100;
+}
+#novo {
+    font-size: 0.8em;
+    width: 56px;
+    height: 21px;
+    color:white;
+    text-align: center;
+    background: #51D275;
+    border-radius: 10.5px;
+}
+
+#sale {
+    font-size: 0.8em;
+    width: 56px;
+    height: 21px;
+    color:white;
+    text-align: center;
+    background: #DC9730;
+    border-radius: 10.5px;
+}
+
+.yourStyle {
+    align-self: center;
+    text-align: center;
+    color: #888;
+}
+.bannerBot {
+    align-self: center;
+    width: 608px;
+    height:80px;
+    margin: 12px;
+    color: #fff;
+    position: relative;
+}
+
+.bannerBot img{
+    filter:opacity(65%)
+}
+.bannerBot p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+
+.mapa img{
+    width: 120%;
+    height: 110%;
+}
+
+.infoContato p{
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 200%;
+    text-align: justify;
+}
+
+.socialMidias{
+    display: flex;
+}
+.socialMidias img{
+    margin-right: 16px;
+}
