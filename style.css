@@ -27,13 +27,13 @@ header .headerBox{
 }
 
 header .logo h1{
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 300;
     color: #777;
 }
 
 header .logo h2{
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 300;
     color: #aaa;
     padding: 2px;
@@ -96,13 +96,13 @@ div .produtos {
 .preco {
     display: flex;
     justify-content: space-between;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 100;
 }
 #novo {
-    font-size: 0.8em;
-    width: 56px;
-    height: 21px;
+    font-size: 1.6rem;
+    width: 3em;
+    height: 1em;
     color:white;
     text-align: center;
     background: #51D275;
@@ -110,9 +110,9 @@ div .produtos {
 }
 
 #sale {
-    font-size: 0.8em;
-    width: 56px;
-    height: 21px;
+    font-size: 1.6rem;
+    width: 3em;
+    height: 1em;
     color:white;
     text-align: center;
     background: #DC9730;
@@ -141,7 +141,7 @@ div .produtos {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 footer {
@@ -164,7 +164,7 @@ footer {
 }
 
 .infoContato p{
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: 100;
     line-height: 200%;
     text-align: justify;
